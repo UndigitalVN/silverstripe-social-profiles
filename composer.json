@@ -1,17 +1,13 @@
 {
-	"name": "innoweb/silverstripe-social-profiles",
+	"name": "undigitalvn/silverstripe-social-profiles",
 	"description": "Adds social profile links to the site.",
     "type": "silverstripe-vendormodule",
 	"license": "BSD-3-Clause",
 	"keywords": ["silverstripe", "social", "profiles"],
 	"authors": [{
-		"name": "Florian Thoma",
-		"homepage": "http://www.innoweb.com.au"
+		"name": "Undigital VN",
+            "email": "support@undigital.com.au"
 	}],
-	"require": {
-		"silverstripe/cms": "^5",
-		"silverstripe/vendor-plugin": "^2"
-	},
     "autoload": {
         "psr-4": {
             "Innoweb\\SocialProfiles\\": "src/"
