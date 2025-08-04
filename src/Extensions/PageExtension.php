@@ -4,8 +4,9 @@ namespace Innoweb\SocialProfiles\Extensions;
 
 use SilverStripe\Core\Config\Config;
 use SilverStripe\SiteConfig\SiteConfig;
+use SilverStripe\Core\Extension;
 
-class PageExtension extends \SilverStripe\CMS\Model\SiteTreeExtension
+class PageExtension extends Extension
 {
     public function getSocialProfilesConfig() {
         if (class_exists(\Symbiote\Multisites\Multisites::class)
