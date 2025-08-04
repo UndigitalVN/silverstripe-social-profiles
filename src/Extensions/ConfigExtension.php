@@ -5,10 +5,10 @@ namespace Innoweb\SocialProfiles\Extensions;
 use SilverStripe\Core\Config\Config;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TextField;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\SiteConfig\SiteConfig;
 
-class ConfigExtension extends DataExtension {
+class ConfigExtension extends Extension {
 
     private static $db = array(
         'ProfilesFacebookPage' => 'Text',
